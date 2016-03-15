@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+	margin:0;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	width:100%;
+	padding-top:15vh;
+	}
+	
+.title {
+	width:430px;
+	float:left;
+	height:50vh;
+	text-align:left;
+	margin-left:25%;
+	padding-right:20px;
+	}
+	
+.titletext {
+	font-family: 'Raleway', sans-serif;
+	}
+	
+.text {
+	margin:10px;
+	padding:10px;
+	border-top: solid 1px #1F1F1F;
+	border-bottom:solid 1px #1F1F1F;
+	}
+	
+.text p {
+	font-size:15px;
+	overflow:auto;
+	}
+
+#copyright {
+	font-size:10px;
+	}
+	
+.text img {
+	float:left;
+	margin-right:15px;
+	}
+
+.from {
+	width:40%;
+	float:left;
+	text-align:left;
+	padding-left:20px;
+	}
+	
+input[type="text"],
+textarea {
+	outline: none;
+	border: 1px solid #aaa;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+input[type="text"]:focus,
+textarea:focus {
+	box-shadow: 0 0 7px #C3862F;
+	border: 1px solid #FFA600;
+}
+
+
+
+input[type="password"],
+textarea {
+	outline: none;
+	border: 1px solid #aaa;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+input[type="password"]:focus,
+textarea:focus {
+	box-shadow: 0 0 7px #C3862F;
+	border: 1px solid #FFA600;
+}
+
+input[type="submit"] {
+	width: 100px;
+	padding: .2em .1em .2em .1em;
+	border: 1px solid #aaa;
+	background: #fff;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #333;
+	}
+	
+input[type="submit"]:hover {
+	box-shadow: 0 0 7px #C3862F;
+	border: 1px solid #FFA600;
+	}
